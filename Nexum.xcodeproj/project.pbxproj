@@ -14,6 +14,9 @@
 		CE9019A22C8CB6A50026F383 /* NexumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019A12C8CB6A50026F383 /* NexumTests.swift */; };
 		CE9019AC2C8CB6A50026F383 /* NexumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019AB2C8CB6A50026F383 /* NexumUITests.swift */; };
 		CE9019AE2C8CB6A50026F383 /* NexumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019AD2C8CB6A50026F383 /* NexumUITestsLaunchTests.swift */; };
+		CE9019BB2C8CB8970026F383 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019BA2C8CB8970026F383 /* Listener.swift */; };
+		CE9019BD2C8CBB750026F383 /* BonjourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019BC2C8CBB750026F383 /* BonjourService.swift */; };
+		CE9019BF2C8D07350026F383 /* UDPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9019BE2C8D07350026F383 /* UDPListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		CE9019A72C8CB6A50026F383 /* NexumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9019AB2C8CB6A50026F383 /* NexumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexumUITests.swift; sourceTree = "<group>"; };
 		CE9019AD2C8CB6A50026F383 /* NexumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE9019BA2C8CB8970026F383 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		CE9019BC2C8CBB750026F383 /* BonjourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourService.swift; sourceTree = "<group>"; };
+		CE9019BE2C8D07350026F383 /* UDPListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				CE9019932C8CB6A50026F383 /* Assets.xcassets */,
 				CE9019982C8CB6A50026F383 /* Nexum.entitlements */,
 				CE9019952C8CB6A50026F383 /* Preview Content */,
+				CE9019BA2C8CB8970026F383 /* Listener.swift */,
+				CE9019BC2C8CBB750026F383 /* BonjourService.swift */,
+				CE9019BE2C8D07350026F383 /* UDPListener.swift */,
 			);
 			path = Nexum;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9019BF2C8D07350026F383 /* UDPListener.swift in Sources */,
 				CE9019922C8CB6A40026F383 /* ContentView.swift in Sources */,
+				CE9019BB2C8CB8970026F383 /* Listener.swift in Sources */,
 				CE9019902C8CB6A40026F383 /* NexumApp.swift in Sources */,
+				CE9019BD2C8CBB750026F383 /* BonjourService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
