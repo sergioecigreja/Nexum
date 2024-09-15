@@ -18,9 +18,16 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button("heh", role: .destructive, action: sendNotification)
         }
         .padding()
     }
+}
+
+func sendNotification() {
+    print("sending notification")
+    let notificationService = NotificationService()
+    notificationService.scheduleNotification(title: "title", body: "body", categoryIdentifier: "cId")
 }
 
 #Preview {
